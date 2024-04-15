@@ -10,7 +10,7 @@ export default function Character({ person, planets }) {
     setShowHomeworld((prevShowHomeworld) => !prevShowHomeworld);
     };
   
-  
+    const homeworld = planets.find(planet => planet.url === person.homeworld)
 
   // console.log('homeworld object:', homeworld);
   // console.log('homeworld name:', homeworld?.name)
