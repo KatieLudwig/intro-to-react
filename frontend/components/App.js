@@ -8,9 +8,7 @@
 7: Character cards will render their planet after clicking on the card ❌
 8: Character cards will hide their planet after clicking again on the card ❌
 9: Character planets are rendered with a class of "character-planet ❌
-const homeworld = planets.find(planet => planet.url === person.homeworld);
 */
-
 
 
 import React, { useState, useEffect } from 'react'
@@ -49,6 +47,7 @@ export default function App() {
     <div>
       <h2>Star Wars Characters</h2>
       <p>See the README of the project for instructions on completing this challenge</p>
+      {error && <p>{error}</p>}
       {data && data.people.map((person, index) => (
         <Character key={index} person={person} planets={data.planets} />
       ))}
