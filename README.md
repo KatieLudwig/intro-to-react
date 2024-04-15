@@ -96,9 +96,9 @@ Fortunately, you have [a very detailed mock](https://bloominstituteoftechnology.
 
 Hey! Let's make sure you're up to speed with your **action items so far**.
 
-- [x] The app is installed on your machine, with both `dev` and `test` scripts running in terminals.
-- [x] You studied the [mock](https://bloominstituteoftechnology.github.io/W_U2_S6_sprint_challenge/) in the Elements tab of Dev Tools.
-- [x] You saw how the "planet" paragraph is mounted and unmounted from the DOM as the user clicks on a character.
+- [✅] The app is installed on your machine, with both `dev` and `test` scripts running in terminals.
+- [✅] You studied the [mock](https://bloominstituteoftechnology.github.io/W_U2_S6_sprint_challenge/) in the Elements tab of Dev Tools.
+- [✅] You saw how the "planet" paragraph is mounted and unmounted from the DOM as the user clicks on a character.
 
 Awesome! Our back-end engineer says that the JSON data needed to build the Star Wars Character Cards comes from two endpoints:
 
