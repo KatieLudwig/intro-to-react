@@ -30,7 +30,7 @@ export default function App() {
         axios.get(urlPeople)
       ])
       setData({ planets: planets.data, people: people.data});
-      console.log('Planets data:', planets);
+      // console.log('Planets data:', planets);
       } catch (error) {
       setError(error.message);
       console.error('Error fetching data:', error)
